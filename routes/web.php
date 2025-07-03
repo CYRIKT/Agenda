@@ -4,7 +4,7 @@ use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AgendaController;
 
-Route::get('/agenda/export-pdf', [AgendaController::class, 'exportPdf'])->name('agenda.export.pdf');
+Route::get('/agenda/export_pdf', [AgendaController::class, 'exportPdf'])->name('agenda.export.pdf');
 
 
 // Route::get('/', function () {
